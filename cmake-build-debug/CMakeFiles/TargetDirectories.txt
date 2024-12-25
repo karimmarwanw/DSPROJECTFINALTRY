@@ -1,0 +1,3 @@
+D:/Uni/Data Structure/DSPROJECTFINALTRY/cmake-build-debug/CMakeFiles/DSPROJECTFINALTRY.dir
+D:/Uni/Data Structure/DSPROJECTFINALTRY/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Uni/Data Structure/DSPROJECTFINALTRY/cmake-build-debug/CMakeFiles/rebuild_cache.dir
