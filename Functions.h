@@ -120,8 +120,8 @@ public:
             int userID   = u->getID();
             int friendID = f->getID();
 
-            if (userID < 0 || userID >= userGraph.getV()
-             || friendID < 0 || friendID >= userGraph.getV()) {
+            if (userID < 0 || userID >= userGraph.getNumUsers()
+             || friendID < 0 || friendID >= userGraph.getNumUsers()) {
                 std::cout << "Error: ID out of range.\n";
                 return;
             }
@@ -177,8 +177,8 @@ public:
                 // update graph
                 int uID = user->getID();
                 int fID = friendUser->getID();
-                if (uID >= 0 && uID < userGraph.getV() &&
-                    fID >= 0 && fID < userGraph.getV())
+                if (uID >= 0 && uID < userGraph.getNumUsers() &&
+                    fID >= 0 && fID < userGraph.getNumUsers())
                 {
                     userGraph.addEdge(uID, fID);
                 }
